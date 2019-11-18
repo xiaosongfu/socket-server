@@ -1,0 +1,19 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "ts-node src/server.ts",
+    "serve:dev": "ts-node-dev src/server.ts",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.8",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.5.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.2"
+  }
+}
