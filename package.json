@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "ts-node src/server.ts",
     "serve:dev": "ts-node-dev src/server.ts",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
